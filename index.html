@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Job Application</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1>Job Application <span class="web">(Web)</span></h1>
+        <form action="###">
+          <div class="form-control">
+            <div class="name">
+              <label for="first">First Name</label>
+              <input type="text" placeholder="Enter First Name..." id="first" />
+            </div>
+            <div class="name">
+              <label for="last">Last Name</label>
+              <input type="text" placeholder="Enter Last Name..." id="last" />
+            </div>
+            <div class="name">
+              <label for="e-mail">Email</label>
+              <input type="email" placeholder="Enter Email" id="e-mail" />
+            </div>
+            <div class="name">
+              <label for="job">Job Role</label>
+              <select id="job">
+                <option value="">Select your job role</option>
+                <option value="Backend">Backend Developer</option>
+                <option value="Frontend">Frontend Developer</option>
+                <option value="DBA">DataBase Administrator</option>
+                <option value="Debugger">Debugger</option>
+                <option value="TimePass">Bakchod</option>
+              </select>
+            </div>
+            <div class="name">
+              <label for="add">Enter Address</label>
+              <textarea placeholder="Enter address..." id="add"></textarea>
+            </div>
+            <div class="name" id="city">
+              <label for="city">City</label>
+              <input type="text" id="city" placeholder="Enter your city.." />
+            </div>
+            <div class="name">
+              <label for="pin">Pincode</label>
+              <input type="number" id="pin" placeholder="Enter pincode..." />
+            </div>
+            <div class="name">
+              <label for="date">Start Date</label>
+              <input type="date" id="date" />
+            </div>
+            <div class="name">
+              <label for="cv">Upload Your CV</label>
+              <input type="file" id="cv" />
+            </div>
+          </div>
+          <div class="btn">
+            <button type="submit">Apply Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
